@@ -1,5 +1,4 @@
 import Accordion from "./components/Accordion";
-import AccordionItem from "./components/AccordionItem";
 import "./index.css";
 
 const faqData = [
@@ -26,7 +25,6 @@ function App() {
       <div>
         <h1 style={{ textAlign: "center", alignItems: "center" }}>FAQ</h1>
         <Accordion data={faqData} />
-        <AccordionItem />
       </div>
     </>
   );
